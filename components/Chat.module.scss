@@ -1,0 +1,24 @@
+.chat-bubble {
+  padding: 1rem;
+  max-width: 50%;
+  background-color: lightgray;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  align-self: flex-start;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  line-height: 1.5em;
+
+  &--user {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    line-height: 1.5em;
+    padding: 1rem;
+    max-width: 50%;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    align-self: flex-end;
+  }
+}
