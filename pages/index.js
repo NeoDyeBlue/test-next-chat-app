@@ -22,8 +22,6 @@ export default function Home() {
     await fetch("/api/socket");
     socket = io();
 
-    console.log(textBoxRef);
-
     socket.on("connect", () => {
       console.log("connected");
     });
